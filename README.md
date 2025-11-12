@@ -40,20 +40,20 @@ Users can:
 ## Folder Structure
 ```
 greensteps-eco-tracker/
--│
--├── backend/ # Handles APIs, authentication, and data processing
--│ ├── server.js
--│ ├── routes/
--│ ├── models/
--│ └── controllers/
--│
--├── frontend/ # React-based user interface
--│ ├── src/
--│ │ ├── components/
--│ │ └── pages/
--│
--└── database/ # Sample and seed data
--└── data/
+│
+├── backend/ # Handles APIs, authentication, and data processing
+│ ├── server.js
+│ ├── routes/
+│ ├── models/
+│ └── controllers/
+│
+├── frontend/ # React-based user interface
+│ ├── src/
+│ │ ├── components/
+│ │ └── pages/
+│
+└── database/ # Sample and seed data
+└── data/
 ```
 
 ## Team Members
