@@ -39,6 +39,7 @@ Users can:
 
 ## Folder Structure
 
+greensteps-eco-tracker/
 │
 ├── backend/ # Handles APIs, authentication, and data processing
 │ ├── server.js
@@ -53,6 +54,7 @@ Users can:
 │
 └── database/ # Sample and seed data
 └── data/
+
 
 ## Team Members
 
