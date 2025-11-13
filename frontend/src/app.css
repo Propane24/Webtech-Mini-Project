@@ -1,0 +1,30 @@
+.app {
+  padding: 30px;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 36px;
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.habits-container {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.habit-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  background: #fff;
+}
