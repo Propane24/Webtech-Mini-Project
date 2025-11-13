@@ -41,19 +41,28 @@ Users can:
 ```
 greensteps-eco-tracker/
 │
-├── backend/ # Handles APIs, authentication, and data processing
-│ ├── server.js
-│ ├── routes/
-│ ├── models/
-│ └── controllers/
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │    └── habits.js
+│   ├── models/
+│   │    └── Habit.js
+│   └── controllers/
+│        └── habitController.js
 │
-├── frontend/ # React-based user interface
-│ ├── src/
-│ │ ├── components/
-│ │ └── pages/
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── components/
+│   │   │      └── HabitCard.js
+│   │   └── pages/
+│   │          └── Dashboard.js
+│   └── package.json
 │
-└── database/ # Sample and seed data
-└── data/
+└── database/
+    └── data.json
+
 ```
 
 ## Team Members
